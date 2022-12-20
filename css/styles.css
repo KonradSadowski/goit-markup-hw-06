@@ -614,4 +614,63 @@ header {
   outline: none;
 }
 
+.footer-form {
+  display: inline-flex;
+  padding-left: 78px;
+  padding-top: 72px;
+  flex-direction: column;
+}
+
+.footer-form label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white);
+  padding-bottom: 20px;
+}
+.footer-form .clicable-content {
+  display: inline-flex;
+  gap: 12px;
+}
+.footer-form .clicable-content input {
+  padding: 15px 0px 15px 16px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--background-dark);
+}
+.footer-form .clicable-content input ::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form .clicable-content button {
+  background: var(--light-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-white);
+
+  display: inline-flex;
+  gap: 24px;
+  padding: 10px 26px 10px 42px;
+}
+.footer-form .clicable-content button svg {
+  fill: var(--text-white);
+}
+
 /* footer-END----------------------------------------------------------------------------------------------------------- */
