@@ -537,6 +537,9 @@ header {
 .page-end {
   background-color: var(--background-dark);
 }
+.page-end .container {
+  display: flex;
+}
 .logo-address-container {
   display: inline-flex;
   flex-direction: column;
