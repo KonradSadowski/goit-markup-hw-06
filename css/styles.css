@@ -516,7 +516,7 @@ header {
   margin: 0px;
 }
 .our-customers-wrapper > .client-logo {
-  display: inline-flex;
+  display: flex;
   gap: 30px;
 }
 .our-customers-wrapper > .client-logo a {
@@ -541,7 +541,7 @@ header {
   display: flex;
 }
 .logo-address-container {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   padding: 60px 0px;
 }
@@ -584,7 +584,7 @@ header {
   color: var(--light-blue);
 }
 .footer-socials {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 20px;
   fill: var(--icon-grey);
@@ -618,7 +618,7 @@ header {
 }
 
 .footer-form {
-  display: inline-flex;
+  display: flex;
   padding-left: 78px;
   padding-top: 72px;
   flex-direction: column;
@@ -634,7 +634,7 @@ header {
   padding-bottom: 20px;
 }
 .footer-form .clicable-content {
-  display: inline-flex;
+  display: flex;
   gap: 12px;
 }
 .footer-form .clicable-content input {
@@ -668,7 +668,7 @@ header {
   letter-spacing: 0.06em;
   color: var(--text-white);
 
-  display: inline-flex;
+  display: flex;
   gap: 24px;
   padding: 10px 26px 10px 42px;
 }
