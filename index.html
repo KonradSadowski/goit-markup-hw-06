@@ -59,7 +59,46 @@
             <button type="button" data-modal-open>Zamów usługe</button>
             <div class="backdrop is-hidden" data-modal>
               <div class="modal-content">
-                <button data-modal-close>&times;</button>
+                <button class="close-button" data-modal-close>&times;</button>
+                <p>Zostaw swoje dane w formularzu poniżej</p>
+                <form class="inputs">
+                  <div class="form-element" role="group" aria-labelledby="name-details">
+                    <label
+                      >Imię
+                      <input type="text" name="first-name" />
+                    </label>
+                  </div>
+                  <div class="form-element" role="group" aria-labelledby="phone-number">
+                    <label
+                      >Telefon
+                      <input type="tel" name="phone-number" />
+                    </label>
+                  </div>
+                  <div class="form-element" role="group" aria-labelledby="email-details">
+                    <label
+                      >E-mail
+                      <input type="email" name="email" />
+                    </label>
+                  </div>
+                  <div class="form-element" aria-labelledby="comment-area">
+                    <label
+                      >Komentarz
+                      <textarea
+                        name="comment"
+                        id="comment"
+                        rows="5"
+                        placeholder="Type your message here..."
+                      ></textarea>
+                    </label>
+                  </div>
+                </form>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" name="terms" value="accepted" />
+                    Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+                  </label>
+                </div>
+                <button class="submit-button" type="submit">Wyślij</button>
               </div>
             </div>
           </div>

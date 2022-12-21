@@ -212,13 +212,15 @@ header {
 
   transform: scale(1);
   transition-duration: 300ms;
+  display: flex;
+  flex-direction: column;
 }
 .is-hidden .modal-content {
   transform: scale(0);
   transition-duration: 300ms;
 }
 
-.modal-content button {
+.modal-content .close-button {
   background-color: var(--text-white);
   color: var(--logo-black);
   width: 30px;
@@ -238,6 +240,14 @@ header {
   visibility: hidden;
   pointer-events: none;
   transition: opacity 300ms 300ms ease, visibility 300ms 300ms ease;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+.modal-content .submit-button {
+  background-color: #000000;
 }
 
 /* MODAL-WINDOW-END------------------------------------------------------------------------------------ */
