@@ -150,7 +150,7 @@ header {
   max-width: 1600px;
 }
 .offer-content {
-  padding: 200px 237px;
+  padding: 200px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -199,11 +199,12 @@ header {
   justify-content: center;
   align-items: center;
   display: flex;
+  z-index: 1;
 }
 
 .modal-content {
   background-color: var(--text-white);
-  height: 581px;
+  min-height: 581px;
   width: 528px;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -361,6 +362,7 @@ header {
 .modal-content .submit-button {
   background: var(--light-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding: 10px 76px;
   font-weight: 700;
@@ -778,7 +780,7 @@ header {
   border-radius: 4px;
   background-color: var(--background-dark);
 }
-.footer-form .clicable-content input ::placeholder {
+.clicable-content input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   align-items: center;

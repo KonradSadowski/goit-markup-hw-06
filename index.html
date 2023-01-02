@@ -57,53 +57,6 @@
           <div class="offer-content">
             <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
             <button type="button" data-modal-open>Zamów usługe</button>
-            <div class="backdrop is-hidden" data-modal>
-              <div class="modal-content">
-                <button class="close-button" data-modal-close>&times;</button>
-                <p>Zostaw swoje dane w formularzu poniżej</p>
-                <form class="inputs">
-                  <div class="form-element" role="group" aria-labelledby="name-details">
-                    <label for="first-name">Imię</label>
-                    <input type="text" name="name" id="first-name" />
-                    <svg width="18" height="18">
-                      <use href="./images/icons.svg#icon-person-form"></use>
-                    </svg>
-                  </div>
-                  <div class="form-element" role="group" aria-labelledby="phone-number">
-                    <label for="phone-number">Telefon</label>
-                    <input type="tel" name="phone-number" id="phone-number" />
-                    <svg width="18" height="18">
-                      <use href="./images/icons.svg#icon-phone-form"></use>
-                    </svg>
-                  </div>
-                  <div class="form-element" role="group" aria-labelledby="email-details">
-                    <label for="user_email">Email</label>
-                    <input type="email" name="email" id="user_email" />
-                    <svg width="18" height="18">
-                      <use href="./images/icons.svg#icon-email-form"></use>
-                    </svg>
-                  </div>
-                  <div class="form-element" aria-labelledby="comment-area">
-                    <label for="comment">Komentarz</label>
-                    <textarea
-                      name="comment"
-                      id="comment"
-                      rows="5"
-                      placeholder="Wprowadź tekst"
-                    ></textarea>
-                  </div>
-                </form>
-                <label class="checkbox">
-                  <input type="checkbox" name="terms" />
-                  <svg width="16" height="15">
-                    <use href="./images/icons.svg#icon-checkbox-checked"></use>
-                  </svg>
-                  Oświadczam iż akceptuję <a>Regulamin</a> i <a>Politykę Prywatności.</a>
-                </label>
-
-                <button class="submit-button" type="submit">Wyślij</button>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -431,6 +384,48 @@
         </form>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="close-button" data-modal-close>&times;</button>
+        <p>Zostaw swoje dane w formularzu poniżej</p>
+        <form class="inputs">
+          <div class="form-element" role="group" aria-labelledby="name-details">
+            <label for="first-name">Imię</label>
+            <input type="text" name="name" id="first-name" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#icon-person-form"></use>
+            </svg>
+          </div>
+          <div class="form-element" role="group" aria-labelledby="phone-number">
+            <label for="phone-number">Telefon</label>
+            <input type="tel" name="phone-number" id="phone-number" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-form"></use>
+            </svg>
+          </div>
+          <div class="form-element" role="group" aria-labelledby="email-details">
+            <label for="user_email">Email</label>
+            <input type="email" name="email" id="user_email" />
+            <svg width="18" height="18">
+              <use href="./images/icons.svg#icon-email-form"></use>
+            </svg>
+          </div>
+          <div class="form-element" aria-labelledby="comment-area">
+            <label for="comment">Komentarz</label>
+            <textarea name="comment" id="comment" rows="5" placeholder="Wprowadź tekst"></textarea>
+          </div>
+        </form>
+        <label class="checkbox">
+          <input type="checkbox" name="terms" />
+          <svg width="16" height="15">
+            <use href="./images/icons.svg#icon-checkbox-checked"></use>
+          </svg>
+          Oświadczam iż akceptuję <a>Regulamin</a> i <a>Politykę Prywatności.</a>
+        </label>
+
+        <button class="submit-button" type="submit">Wyślij</button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
