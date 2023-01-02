@@ -167,7 +167,6 @@ header {
   text-transform: uppercase;
   margin: 0px 252px;
   padding-bottom: 30px;
-  
 }
 
 .offer button {
@@ -216,7 +215,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 40px;
   margin: 0px;
 }
 .is-hidden .modal-content {
@@ -258,7 +257,6 @@ header {
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 40px;
   padding-bottom: 12px;
   color: #212121;
   margin: 0px;
