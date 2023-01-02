@@ -150,7 +150,7 @@ header {
   max-width: 1600px;
 }
 .offer-content {
-  padding: 200px;
+  padding: 200px 0px;
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -165,8 +165,9 @@ header {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0px;
+  margin: 0px 252px;
   padding-bottom: 30px;
+  
 }
 
 .offer button {
